@@ -75,6 +75,7 @@ class AwsAgent(BaseAgent):
                     tracking_data.append(tracklist)
         if tracking_data!=[]:
             self.publishToolsData(tracking_data)
+			
         
 if __name__ == "__main__":
     AwsAgent()

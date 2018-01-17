@@ -323,4 +323,5 @@ public class InsightsInferenceServiceImpl implements InsightsInferenceService {
 		esQuery = esQuery.replace("__schedule__", schedule);
 		return esQuery;
 	}
+	
 }
