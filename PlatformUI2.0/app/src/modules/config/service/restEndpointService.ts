@@ -112,8 +112,7 @@ module ISightApp {
 			                        headers: defaultHeader
 			                    }
 			                });
-			          return resource.allData().$promise;
-			
+			          return resource.allData().$promise;			
 			
 		}
 	}
