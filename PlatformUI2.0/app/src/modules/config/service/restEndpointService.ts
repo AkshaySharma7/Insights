@@ -35,6 +35,7 @@ module ISightApp {
 		}
 
 		private loadUiServiceLocation(): void {
+		
 			var self = this;
 			if (this.serviceHost) {
 				this.serviceHost;
